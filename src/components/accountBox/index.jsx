@@ -6,8 +6,8 @@ import { AccountContext } from "./accountContext";
 import { SignupForm } from "./signupForm";
 
 const BoxContainer = styled.div`
-  width: 345px;
-  min-height: 550px;
+  width: 500px;
+  min-height: 600px;
   display: flex;
   flex-direction: column;
   border-radius: 19px;
@@ -75,16 +75,16 @@ const InnerContainer = styled.div`
 
 const backdropVariants = {
   expanded: {
-    width: "233%",
-    height: "1050px",
-    borderRadius: "20%",
-    transform: "rotate(60deg)",
+    width: "250%",
+    height: "1200px",
+    borderRadius: "10%",
+    transform: "rotate(1deg)",
   },
   collapsed: {
     width: "160%",
     height: "550px",
-    borderRadius: "50%",
-    transform: "rotate(60deg)",
+    borderRadius: "30%",
+    transform: "rotate(1deg)",
   },
 };
 
